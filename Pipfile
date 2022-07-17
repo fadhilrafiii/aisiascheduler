@@ -9,6 +9,7 @@ django-environ = "*"
 djongo = "*"
 pymongo = "<=3.12.1"
 apscheduler = "*"
+pre-commit = "*"
 
 [dev-packages]
 autopep8 = "*"
