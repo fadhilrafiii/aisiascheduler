@@ -6,7 +6,7 @@ class ModeltrainerConfig(AppConfig):
     name = "modeltrainer"
 
     def ready(self):
-        from modeltrainer.updater import start
+        from modeltrainer.updater import start_mobile_net_scheduler
 
         # Start the scheduler
-        start()
+        start_mobile_net_scheduler()

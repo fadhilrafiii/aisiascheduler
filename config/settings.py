@@ -135,8 +135,8 @@ STATIC_URL = "/static/"
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-SCHEDULER_INTERVAL_NUMBER = env("SCHEDULER_INTERVAL_NUMBER")
-SCHEDULER_INTERVAL_UNIT = env("SCHEDULER_INTERVAL_UNIT")
+MOBILE_NET_SCHEDULER_INTERVAL_NUMBER = env("MOBILE_NET_SCHEDULER_INTERVAL_NUMBER")
+MOBILE_NET_SCHEDULER_INTERVAL_UNIT = env("MOBILE_NET_SCHEDULER_INTERVAL_UNIT")
 
 # Email Configuration ==========================================================
 ADMINS = [("Me", env("ADMIN_EMAIL"))]

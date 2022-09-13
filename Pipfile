@@ -10,6 +10,11 @@ djongo = "*"
 pymongo = "<=3.12.1"
 apscheduler = "*"
 pre-commit = "*"
+djangorestframework = "*"
+torch = "1.12.1"
+torchvision = "0.13.1"
+pycocotools = "2.0.4"
+pandas = "1.3.4"
 
 [dev-packages]
 autopep8 = "*"
